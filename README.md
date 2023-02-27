@@ -10,3 +10,8 @@ mongosh "mongodb+srv://cluster0.v5fj45k.mongodb.net/myFirstDatabase" --apiVersio
 
 ###Execute Postman files via Newman 
 newman run NttData-Student-XTEC.postman_collection.json -e NttData-Student-PRO.postman_environment.json
+
+###Execute Newman's Report
+npm install -g newman-reporter-htmlextra
+newman run NttData-Student-XTEC.postman_collection.json -e NttData-Student-PRO.postman_environment.json -r htmlextra
+- in folder newman we will get an html report file
