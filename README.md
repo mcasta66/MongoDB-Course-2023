@@ -19,3 +19,5 @@ newman run NttData-Student-XTEC.postman_collection.json -e NttData-Student-PRO.p
 ###Execute CRUD_StudentsExercise.js to Atlas MongoDB Database
 mongosh "mongodb+srv://cluster0.v5fj45k.mongodb.net/myFirstDatabase" --apiVersion 1 --username m001-student C:\Users\marga\Downloads\scripts\CRUD_StudentsExercise.js
 
+###You must install first pymongo via pip
+python -m pip install pymongo
