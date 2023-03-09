@@ -14,7 +14,7 @@ newman run NttData-Student-XTEC.postman_collection.json -e NttData-Student-PRO.p
 ###Execute Newman's Report
 npm install -g newman-reporter-htmlextra
 newman run NttData-Student-XTEC.postman_collection.json -e NttData-Student-PRO.postman_environment.json -r htmlextra
-- in folder newman we will get an html report file
+###in folder newman we will get an html report file
 
 ###Execute CRUD_StudentsExercise.js to Atlas MongoDB Database
 mongosh "mongodb+srv://cluster0.v5fj45k.mongodb.net/myFirstDatabase" --apiVersion 1 --username m001-student C:\Users\marga\Downloads\scripts\CRUD_StudentsExercise.js
@@ -28,3 +28,5 @@ python DatabaseScript.py
 ###GitHub Pages reports html
 https://mcasta66.github.io/MongoDB-Course-2023/newman/NttData-Student-XTEC-2023-02-24-21-58-13-009-0.html
 https://mcasta66.github.io/MongoDB-Course-2023/newman/MongoDB%20Data%20API-2023-03-02-15-51-32-847-0.html
+
+###Added schema validation
